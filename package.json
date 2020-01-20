@@ -1,0 +1,32 @@
+{
+  "name": "roadmap-extract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/api.js",
+  "bin": {
+    "roadmap-extract": "./dist/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "inspect": "ts-node-dev --inspect ./src/index.ts",
+    "prod": "tsc && node dist/index.js"
+  },
+  "author": "Jean Ponchon <jean.ponchon@novadiscovery.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/rc": "^1.1.0",
+    "gitlab": "^14.1.1",
+    "js-yaml": "^3.13.1",
+    "rc": "^1.2.8",
+    "reveal-md": "^3.4.2",
+    "typescript": "^3.7.4",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "@types/yargs": "^15.0.0",
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
+}
