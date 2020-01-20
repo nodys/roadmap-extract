@@ -11,7 +11,8 @@
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
     "inspect": "ts-node-dev --inspect ./src/index.ts",
-    "prod": "tsc && node dist/index.js"
+    "prod": "tsc && node dist/index.js",
+    "release": "standard-release"
   },
   "author": "Jean Ponchon <jean.ponchon@novadiscovery.com>",
   "license": "ISC",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@types/node": "^13.1.7",
     "@types/yargs": "^15.0.0",
+    "standard-version": "^7.0.1",
     "ts-node-dev": "^1.0.0-pre.44"
   }
 }
