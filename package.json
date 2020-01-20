@@ -12,7 +12,7 @@
     "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
     "inspect": "ts-node-dev --inspect ./src/index.ts",
     "prod": "tsc && node dist/index.js",
-    "release": "standard-release"
+    "release": "standard-version"
   },
   "author": "Jean Ponchon <jean.ponchon@novadiscovery.com>",
   "license": "ISC",
